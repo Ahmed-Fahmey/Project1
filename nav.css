@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #060D15;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left Section */
+.nav-left {
+    width: 25%;
+}
+
+.nav-left h2 {
+    font-size: 1.5em;
+}
+
+/* Center Section */
+.nav-center {
+    width: 50%;
+    text-align: center;
+}
+
+.nav-center ul {
+    list-style: none;
+}
+
+.nav-center li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Right Section */
+.nav-right {
+    width: 25%;
+    text-align: right;
+}
+
+.nav-right ul {
+    list-style: none;
+}
+
+.nav-right li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* Links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    color: #B8C7D9;
+}
